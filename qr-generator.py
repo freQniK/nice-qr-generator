@@ -272,7 +272,7 @@ def main():
     parser.add_argument(
         "--size", "-s",
         type=int,
-        default=512,
+        default=256,
         help="Output image size in pixels (square).",
     )
     parser.add_argument(
